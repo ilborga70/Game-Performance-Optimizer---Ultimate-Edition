@@ -1,4 +1,4 @@
-# 🎮 Game Performance Optimizer - Ultimate Edition
+# 🎮 Game Performance Optimizer - Ultimate Edition 🎮
 
 ## 🏁 Overview
 
