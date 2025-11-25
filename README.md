@@ -1,4 +1,28 @@
-# 🎮 Game Performance Optimizer - Ultimate Edition 🎮
+# 🎮 Game Performance Optimizer - Ultimate Edition
+
+## 🚀 New Features
+
+### 🛠️ Tab 1: SCL Gaming Boost Integration
+- **Smart Launcher:** Replaced the generic "Check Status" button with **"Open SCL Gaming Boost"**.
+- **Auto-Discovery:** The script now automatically scans your PC (Desktop, Downloads, Program Files, and all connected drives) to find `SCL Gaming Boost.exe`.
+- **Download Prompt:** If the tool is not found, a pop-up offers to open the official GitHub release page for immediate download.
+
+### 🧹 Tab 3: Deep Driver Cleanup
+- **New "Deep Clean" Button:** Added a specific tool to prepare your PC for new GPU drivers.
+- **Functionality:** Aggressively removes old installer leftovers (`C:\NVIDIA`, `C:\AMD`) and wipes the System Temp folder to prevent driver conflicts (acting as a "DDU Prep" step).
+
+## 🔧 Improvements & Fixes
+
+- **✅ Fixed Cache Feedback:** Resolved a bug where `Clear DirectX`, `NVIDIA`, and `AMD` cache buttons executed silently. They now correctly display a **green success message** (e.g., "DirectX Cache Cleared!") in the status bar upon completion.
+- **📝 Pro Checklist Update (Tab 5):** Added advanced competitive tweaks including:
+  - **HPET:** Instructions to disable High Precision Event Timer.
+  - **Exploit Protection:** Guide to disabling Control Flow Guard (CFG) to fix stutter in DX12 games.
+  - **ISLC:** Tips for Intelligent Standby List Cleaner.
+- **🌍 Localization:** The entire interface, tooltips, and status messages have been fully translated into **English**.
+
+## ⚙️ Technical Changes
+- Refactored the `Clean-Cache` function to return valid status flags, ensuring the UI always responds to user actions.
+- Improved error handling for the recursive file search to prevent freezing when scanning large drives.
 
 ## 🏁 Overview
 
