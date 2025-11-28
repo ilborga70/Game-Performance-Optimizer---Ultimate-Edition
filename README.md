@@ -30,7 +30,7 @@ Game Performance Optimizer is a comprehensive **portable Windows application** d
 
 Distributed as a standalone script/executable, this tool requires no installation and leaves no traces on your system. Unlike generic "boosters," this utility provides professional-grade optimizations based on competitive gaming principles and **Unreal Engine 5** specific performance characteristics.
 
-# ![Game Performance Optimizer - Ultimate Edition+](https://github.com/user-attachments/assets/c2baaa2f-c381-405f-a5af-80ed6a77d5f3)
+# ![Game Performance Optimizer - Ultimate Edition 2 6 0 0](https://github.com/user-attachments/assets/562ad48d-a5c1-4261-b97f-480558462f50)
 
 ## ⚙️ Key Features
 
