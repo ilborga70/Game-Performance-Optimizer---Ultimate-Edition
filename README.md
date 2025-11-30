@@ -1,5 +1,7 @@
 # 🎮Game Performance Optimizer - Ultimate Edition🎮
 
+# <img width="2572" height="1673" alt="Game Performance Optimizer - Ultimate Edition 2 8 0 0" src="https://github.com/user-attachments/assets/be0051e7-7860-47cb-bd9a-3f1f2930cda7" />
+
 ## 🚀 New Features
 
 ### 🛠️ Tab 1: SCL Gaming Boost Integration
@@ -29,8 +31,6 @@
 Game Performance Optimizer is a comprehensive **portable Windows application** designed to maximize gaming performance through systematic optimization of Windows settings, hardware resources, and game-specific configurations. 
 
 Distributed as a standalone script/executable, this tool requires no installation and leaves no traces on your system. Unlike generic "boosters," this utility provides professional-grade optimizations based on competitive gaming principles and **Unreal Engine 5** specific performance characteristics.
-
-# ![Game Performance Optimizer - Ultimate Edition 2 7 0 0](https://github.com/user-attachments/assets/2e2196e1-12c2-4091-8d15-e996be007f16)
 
 ## ⚙️ Key Features
 
