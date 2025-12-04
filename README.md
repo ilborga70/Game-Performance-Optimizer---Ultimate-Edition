@@ -1,6 +1,6 @@
 # 🛠️Game Performance Optimizer - Ultimate Edition🛠️
 
-# <img width="2572" height="1614" alt="Game Performance Optimizer - Ultimate Edition 1 0 0 0" src="https://github.com/user-attachments/assets/b3566283-3c5f-413c-86f2-7291c250b5c3" />
+# <img width="2572" height="1614" alt="Game Performance Optimizer - Ultimate Edition 1 1 0 0" src="https://github.com/user-attachments/assets/11979d91-a390-4dfd-bb0a-3f371fecb837" />
 
 ## 🚀 New Features
 
