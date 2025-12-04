@@ -2,6 +2,85 @@
 
 # <img width="2572" height="1614" alt="Game Performance Optimizer - Ultimate Edition 1 1 0 0" src="https://github.com/user-attachments/assets/11979d91-a390-4dfd-bb0a-3f371fecb837" />
 
+Game Performance Optimizer - Ultimate Edition is a free, portable Windows application designed to maximize gaming performance.  
+It systematically optimizes Windows settings, hardware resources, and game configurations to:
+
+- Reduce input lag
+- Minimize micro-stutter
+- Increase FPS
+- Improve network stability and cache management
+
+---
+
+## ⚡️ Key Features
+
+### Windows 11 Graphics & Core Tweaks
+- Game Bar (Disable for FPS): OFF → Disables background recording to reduce system load.
+- Auto HDR (HDR Monitors): OFF → Turns off Auto HDR if not needed.
+- Game Mode (Prioritize Games): ON → Prioritizes system resources for the running game.
+- Windowed Games Optimizations: ON → Improves borderless windowed performance without added input lag.
+- GPU Scheduling (HAGS): ON → Hardware-accelerated GPU scheduling reduces latency.
+- Disable MPO (Fix Flickering): ON → Fixes flickering/stuttering in multi-monitor setups.
+- Disable Dynamic Tick: ON → Keeps system timer constant for better responsiveness.
+- Disable RAM Compression: ON → Frees CPU cycles for more consistent frame rates.
+- Disable Nagle's Algorithm: ON → Optimizes network for lower ping.
+- Disable CPU Core Parking: ON → Keeps all cores active for maximum performance.
+
+---
+
+### Windows 11 System Services
+- Disable Telemetry: ON → Stops diagnostic data collection.
+- Disable Hibernation: ON → Frees disk space and fixes startup/shutdown issues.
+- Disable Mouse Acceleration: ON → Ensures 1:1 linear mouse movement.
+- Disable Extra Services: ON → Disables non-essential services (printing, faxing, etc.).
+- Disable Network Throttling: ON → Removes bandwidth limits.
+- Advanced System Tweaks: ON → Applies additional performance optimizations.
+- Disable Notifications: ON → Prevents pop-ups during gameplay.
+
+---
+
+### Advanced Gaming Optimizations
+- Disable Windows Defender during gaming: OFF → Optional, not recommended for daily use.
+- Auto Game Mode for processes: ON → Automatically enables Game Mode for game processes.
+- LatencyMon Check: READY → Tool to identify problematic drivers.
+- Custom Timer Resolution (0.5ms): ON → Improves input lag.
+- Disable HPET: ON → Reduces stuttering on certain hardware.
+- SSD Optimizations (TRIM, no defrag): ON → Maintains SSD health.
+- Network QoS (prioritize gaming traffic): ON → Flags gaming traffic as high priority.
+
+---
+
+## 🛠 Quick Guide
+
+> ⚠️ Requires Administrator privileges and .NET Framework 4.8
+
+1. Launch  
+   - Run as Administrator → *Right-click → Run as administrator*
+
+2. Tab 1 (Disk & SCL Boost)  
+   - Select your game .exe  
+   - Click Exclude Indexing
+
+3. Tab 2 (CPU & Priority)  
+   - Click Set High Priority  
+   - Click Disable FSO (fix input lag)  
+   - Click Disable High DPI Scaling (fix mouse feel)  
+   - Click Force Admin (Always)
+
+4. Tab 3 (Cache & Power)  
+   - Click Clear DirectX Cache  
+   - Click Force High Performance
+
+5. Tab 4 (Network & Latency)  
+   - Click Apply Network Optimizations  
+   - ⚠️ Restart required
+
+---
+
+## ✅ Final Notes
+- Review other tabs and settings based on your system and preferences.
+- Some optimizations (e.g., disabling Defender) are best reserved for competitive sessions, not daily use.
+
 ## 🚀 New Features
 
 ### 🛠️ Tab 1: SCL Gaming Boost Integration
