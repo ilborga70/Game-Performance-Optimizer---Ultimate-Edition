@@ -1,207 +1,132 @@
-# 🛠️Game Performance Optimizer - Ultimate Edition🛠️
+# <img width="2572" height="1614" alt="Game Performance Optimizer - Ultimate Edition 1 3 0 0" src="https://github.com/user-attachments/assets/095cabb4-0bd9-4b48-ab27-9ec6b639a1af" />
 
-# <img width="2572" height="1614" alt="Game Performance Optimizer - Ultimate Edition 1 1 0 0" src="https://github.com/user-attachments/assets/11979d91-a390-4dfd-bb0a-3f371fecb837" />
+A powerful, all-in-one executable tool designed to enhance gaming performance, fix stuttering (especially in Unreal Engine 5 games), and reduce input latency by applying competitive Windows and system tweaks.
 
-Game Performance Optimizer - Ultimate Edition is a free, portable Windows application designed to maximize gaming performance.  
-It systematically optimizes Windows settings, hardware resources, and game configurations to:
+This tool is distributed as a **portable .exe** and requires **Administrator privileges** to function correctly.
 
-- Reduce input lag
-- Minimize micro-stutter
-- Increase FPS
-- Improve network stability and cache management
+⚠️ **Note on Download:**  
+Some web browsers or antivirus software may show **false positive warnings** when downloading or running portable `.exe` files. This happens because the tool applies advanced system tweaks and registry changes. The executable is safe to use, but you should always download it from the official repository to ensure authenticity.
 
 ---
 
-## ⚡️ Key Features
+## ✨ Features Overview
 
-### Windows 11 Graphics & Core Tweaks
-- Game Bar (Disable for FPS): OFF → Disables background recording to reduce system load.
-- Auto HDR (HDR Monitors): OFF → Turns off Auto HDR if not needed.
-- Game Mode (Prioritize Games): ON → Prioritizes system resources for the running game.
-- Windowed Games Optimizations: ON → Improves borderless windowed performance without added input lag.
-- GPU Scheduling (HAGS): ON → Hardware-accelerated GPU scheduling reduces latency.
-- Disable MPO (Fix Flickering): ON → Fixes flickering/stuttering in multi-monitor setups.
-- Disable Dynamic Tick: ON → Keeps system timer constant for better responsiveness.
-- Disable RAM Compression: ON → Frees CPU cycles for more consistent frame rates.
-- Disable Nagle's Algorithm: ON → Optimizes network for lower ping.
-- Disable CPU Core Parking: ON → Keeps all cores active for maximum performance.
+The optimizer is organized into five main tabs, plus a suite of advanced system tweaks.
 
 ---
 
-### Windows 11 System Services
-- Disable Telemetry: ON → Stops diagnostic data collection.
-- Disable Hibernation: ON → Frees disk space and fixes startup/shutdown issues.
-- Disable Mouse Acceleration: ON → Ensures 1:1 linear mouse movement.
-- Disable Extra Services: ON → Disables non-essential services (printing, faxing, etc.).
-- Disable Network Throttling: ON → Removes bandwidth limits.
-- Advanced System Tweaks: ON → Applies additional performance optimizations.
-- Disable Notifications: ON → Prevents pop-ups during gameplay.
+## 1️⃣ Disk & PC Check
+
+This tab focuses on disk indexing and launching the companion "Gaming PC Check" tool.
+
+| Feature | Description |
+| :--- | :--- |
+| **Indexing Management** | Select a game's folder to **Exclude Indexing** (recommended for game folders on any drive) or **Re-enable Indexing** to restore defaults. |
+| **Optimization History** | Tracks a history of game folders whose indexing status has been modified. |
+| **Gaming PC Check** | A dedicated section to **Launch** or **Download** a separate, external tool called "Gaming PC Check" (SCL) for in-depth system analysis. |
 
 ---
 
-### Advanced Gaming Optimizations
-- Disable Windows Defender during gaming: OFF → Optional, not recommended for daily use.
-- Auto Game Mode for processes: ON → Automatically enables Game Mode for game processes.
-- LatencyMon Check: READY → Tool to identify problematic drivers.
-- Custom Timer Resolution (0.5ms): ON → Improves input lag.
-- Disable HPET: ON → Reduces stuttering on certain hardware.
-- SSD Optimizations (TRIM, no defrag): ON → Maintains SSD health.
-- Network QoS (prioritize gaming traffic): ON → Flags gaming traffic as high priority.
+## 2️⃣ CPU & Priority Manager
+
+This section manages per-game CPU priority, compatibility flags, and GPU settings for high-performance execution.
+
+| Feature | Description |
+| :--- | :--- |
+| **Game Selection** | Allows browsing for a target game's `.exe` file. |
+| **CPU Priority** | Permanently sets the game's **CPU Priority** to **High** or restores it to **Normal** via Windows Registry settings. |
+| **Launch as Admin** | Option to launch the selected game with administrative rights for a single session. |
+| **Compatibility Flags** | Toggles key Windows compatibility settings: |
+| | - **Disable/Restore FSO** (Fullscreen Optimization, often fixes stuttering). |
+| | - **Disable/Restore High DPI Scaling Override**. |
+| | - **Force/Remove Permanent Admin Flag** (Runs the game as Administrator every time). |
+| **GPU Preference** | For any selected desktop app, you can **Add/Update GPU High Perf.** to force it to use the dedicated high-performance GPU. |
+| **Full Status Check** | A button to display the current state of all priority, compatibility, and GPU preference settings for the selected executable. |
 
 ---
 
-## 🛠 Quick Guide
+## 3️⃣ Cache & Power Management
 
-> ⚠️ Requires Administrator privileges and .NET Framework 4.8
+Tools for cleaning system cache and managing power delivery to the CPU.
 
-1. Launch  
-   - Run as Administrator → *Right-click → Run as administrator*
-
-2. Tab 1 (Disk & SCL Boost)  
-   - Select your game .exe  
-   - Click Exclude Indexing
-
-3. Tab 2 (CPU & Priority)  
-   - Click Set High Priority  
-   - Click Disable FSO (fix input lag)  
-   - Click Disable High DPI Scaling (fix mouse feel)  
-   - Click Force Admin (Always)
-
-4. Tab 3 (Cache & Power)  
-   - Click Clear DirectX Cache  
-   - Click Force High Performance
-
-5. Tab 4 (Network & Latency)  
-   - Click Apply Network Optimizations  
-   - ⚠️ Restart required
+| Feature | Description |
+| :--- | :--- |
+| **Shader Cache Cleaner** | Clears cached shaders (often a primary fix for stuttering in games like those built on Unreal Engine 5). |
+| | - **Clear DirectX Cache**. |
+| | - **Clear NVIDIA Cache**. |
+| | - **Clear AMD Cache**. |
+| **Deep Driver Cleanup** | An aggressive cleanup tool to prepare your system before installing new GPU drivers. |
+| **Power Plan** | **Force High Performance** or **Set Balanced** to prevent the CPU from downclocking under gaming load (critical for performance consistency). |
 
 ---
 
-## ✅ Final Notes
-- Review other tabs and settings based on your system and preferences.
-- Some optimizations (e.g., disabling Defender) are best reserved for competitive sessions, not daily use.
+## 4️⃣ Network & Latency
 
-## 🚀 New Features
+Registry tweaks to reduce competitive network latency. **(Restart Required)**
 
-### 🛠️ Tab 1: SCL Gaming Boost Integration
-- **Smart Launcher:** Replaced the generic "Check Status" button with **"Open SCL Gaming Boost"**.
-- **Auto-Discovery:** The script now automatically scans your PC (Desktop, Downloads, Program Files, and all connected drives) to find `SCL Gaming Boost.exe`.
-- **Download Prompt:** If the tool is not found, a pop-up offers to open the official GitHub release page for immediate download.
-
-### 🧹 Tab 3: Deep Driver Cleanup
-- **New "Deep Clean" Button:** Added a specific tool to prepare your PC for new GPU drivers.
-- **Functionality:** Aggressively removes old installer leftovers (`C:\NVIDIA`, `C:\AMD`) and wipes the System Temp folder to prevent driver conflicts (acting as a "DDU Prep" step).
-
-## 🔧 Improvements & Fixes
-
-- **✅ Fixed Cache Feedback:** Resolved a bug where `Clear DirectX`, `NVIDIA`, and `AMD` cache buttons executed silently. They now correctly display a **green success message** (e.g., "DirectX Cache Cleared!") in the status bar upon completion.
-- **📝 Pro Checklist Update (Tab 5):** Added advanced competitive tweaks including:
-  - **HPET:** Instructions to disable High Precision Event Timer.
-  - **Exploit Protection:** Guide to disabling Control Flow Guard (CFG) to fix stutter in DX12 games.
-  - **ISLC:** Tips for Intelligent Standby List Cleaner.
-- **🌍 Localization:** The entire interface, tooltips, and status messages have been fully translated into **English**.
-
-## ⚙️ Technical Changes
-- Refactored the `Clean-Cache` function to return valid status flags, ensuring the UI always responds to user actions.
-- Improved error handling for the recursive file search to prevent freezing when scanning large drives.
-
-## 🏁 Overview
-
-Game Performance Optimizer is a comprehensive **portable Windows application** designed to maximize gaming performance through systematic optimization of Windows settings, hardware resources, and game-specific configurations. 
-
-Distributed as a standalone script/executable, this tool requires no installation and leaves no traces on your system. Unlike generic "boosters," this utility provides professional-grade optimizations based on competitive gaming principles and **Unreal Engine 5** specific performance characteristics.
-
-## ⚙️ Key Features
-
-### **Portable, Clean & Adaptive**
-- **Zero Installation**: Run directly from any location (USB, Desktop).
-- **Self-Contained**: No external assets required (Icons and code are embedded).
-- **Adaptive UI**: Toggle instantly between **Dark Mode** (Gamer/Cyberpunk) and **Light Mode** (Office).
-
-### **1. Disk & Indexing Management**
-- **Smart Indexing Control**: Exclude game directories from Windows Search indexing to reduce disk I/O contention.
-- **Status Monitoring**: Real-time checking of current indexing status for selected games.
-- **History Tracking**: Maintain optimization history with quick-load functionality.
-
-### **2. CPU, Priority & Compatibility (NEW)**
-- **Dual-Write Registry Technology**: Applies compatibility flags to both **Current User (HKCU)** and **Local Machine (HKLM)** hives. This ensures settings like "Run as Admin" stick permanently, bypassing Windows overrides.
-- **Permanent Admin Flag**: Force games to *always* run as Administrator without right-clicking.
-- **High DPI Scaling Override**: Disable high DPI scaling behavior to fix mouse "floatiness" and cursor misalignment in older or UE5 titles.
-- **Fullscreen Optimizations (FSO)**: Disable Windows FSO to eliminate input lag and micro-stutters.
-- **One-Click Launch**: Button to immediately launch the selected game with elevated privileges.
-- **Unified Status Check**: A single report summarizing CPU Priority, FSO status, DPI scaling, and Admin rights.
-
-### **3. Cache & Power Management**
-- **Shader Cache Cleaner**: Clear **DirectX**, **NVIDIA**, and **AMD** caches. Crucial for fixing **Unreal Engine 5 stuttering** (compilation lag).
-- **Power Plan Control**: Force High Performance mode to prevent CPU frequency drops/parking during gameplay.
-
-### **4. Network & Latency Tweaks**
-- **Registry Optimizations**: Disable *Network Throttling Index* and set *System Responsiveness* to 0 for competitive gaming.
-- **TCP Optimization**: Tuned for lowest packet latency.
-- **Safe Reversion**: Restore Windows network defaults with a single click.
-
-### **5. Professional Competitive Checklist**
-- **Comprehensive Guide**: BIOS settings (XMP, Resizable BAR), Monitor config, and Input optimization.
-- **UE5-Specific Fixes**: Step-by-step guide for `Engine.ini` tweaks (`r.TextureStreaming`, `r.CreateShadersOnLoad`).
-- **Maintenance Routine**: Weekly and monthly optimization schedules.
+| Feature | Description |
+| :--- | :--- |
+| **Apply Network Optimizations** | Tweaks the Windows Registry to **disable Network Throttling** and set **SystemResponsiveness to 0** (optimizing for gaming performance over background tasks). |
+| **Reset Windows Defaults** | Restores the default values for all network registry tweaks. |
 
 ---
 
-## 🚀 Portable Usage
+## 5️⃣ Pro Checklist
 
-### **System Requirements**
-- Windows 10/11 (64-bit)
-- .NET Framework 4.8 (Standard on most modern Windows PCs)
-- **Administrator privileges required for full functionality**
+A read-only text area containing advanced, manual tips for competitive gamers.
 
-### **Running the Application**
-1. **Download** the script/executable.
-2. **Place anywhere** - desktop, game folder, or USB drive.
-3. **Run as Administrator**: Right-click and select "Run as Administrator" (Critical for HKLM Registry writes).
-4. The GUI loads automatically with the embedded high-quality icon.
-
-### **⚠️ Security Note**
-Since this is a community-developed tool, Windows SmartScreen may show a warning:
-- Click **"More info"** → **"Run anyway"**.
-- The application is completely safe, open-source (PowerShell based), and only modifies standard Windows gaming keys.
+* **UE5 Optimization:** Manual configuration file edits (`Engine.ini`) to force shader compilation and prevent texture streaming issues.
+* **Hardware/BIOS:** Tips on enabling **XMP/DOCP** for RAM speed, **Resizable BAR**, and **disabling HPET** for lowest input latency.
+* **Windows & In-Game:** Reminders for enabling Game Mode, checking refresh rates, disabling mouse acceleration, and managing background apps.
 
 ---
 
-## 🛠️ Optimization Guide
+## ⚙️ Advanced System Tweaks (Toggles)
 
-### **Quick Start (The "Anti-Stutter" Setup)**
-1. **Launch** the tool as Administrator.
-2. **Tab 1**: Select your game `.exe` → Click **"Exclude Indexing"**.
-3. **Tab 2**: 
-   - Click **"Set High Priority"**.
-   - Click **"Disable FSO"** (Fixes input lag).
-   - Click **"Disable High DPI Scaling"** (Fixes mouse feel).
-   - Click **"Force Admin (Always)"** (Ensures permissions).
-4. **Tab 3**: Click **"Clear DirectX Cache"** + **"Force High Performance"**.
-5. **Tab 4**: Click **"Apply Network Optimizations"** (Restart required).
+The tool includes underlying logic to manage several advanced system-wide settings using simple on/off toggles:
 
-### **UE5 Specific Fix (Engine.ini)**
-Refer to **Tab 5 (Pro Checklist)** for the critical `Engine.ini` edits that solve shader compilation stuttering in Unreal Engine 5 games.
-
----
-
-## 💾 Settings & History
-
-- **Smart History**: Remembers the last 10 games you optimized for both Indexing and CPU/Compatibility settings.
-- **Load Selected**: Quickly re-apply settings to a previously optimized game from the list.
-- **Dual-Layer Safety**: Optimizations are applied using robust methods that check both user and system-wide registry keys to ensure they apply correctly to protected folders (like `Program Files`).
+| Category | Optimization Toggle | Goal |
+| :--- | :--- | :--- |
+| **Latency/System** | **Disable HPET** | Lowers input latency by disabling the High Precision Event Timer. |
+| | **Dynamic Tick** | Disables Dynamic Tick for potentially better performance stability. |
+| | **Nagle's Algorithm** | Disables this TCP optimization for lower ping/latency in online games. |
+| **Memory** | **ISLC (Intelligent Standby List Cleaner)** | Manages the Windows standby list to prevent memory-related stutter. |
+| | **Large Pages** | Enables the use of large memory pages for better RAM allocation. |
+| | **Disable RAM Compression** | Disables Windows memory compression features. |
+| **Storage** | **SSD Optimizations** | Applies recommended tweaks for Solid State Drives (e.g., disables prefetcher, ensures TRIM is active). |
+| | **Clear Pagefile at Shutdown** | Forces the system to clean the pagefile on shutdown for security and resource management. |
+| **GPU/Video** | **HAGS/GPUScheduler** | Tweaks for Hardware-accelerated GPU Scheduling. |
+| | **NVIDIA Reflex / Low Latency Mode** | Manages NVIDIA's built-in latency-reducing features. |
+| **Windows Services** | **Disable Game DVR/Xbox Services** | Deactivates non-essential services that can consume resources. |
+| | **Disable Cortana/Search** | Disables the Cortana assistant and related search features. |
 
 ---
 
-## 🎯 Competitive Gaming Focus
+## ⚠️ Important Note
 
-This tool is built specifically to address modern gaming issues:
-
-- **UE5 Stutter Fix**: Aggressive shader cache cleaning and priority management.
-- **Input Lag Reduction**: Disabling FSO and High DPI scaling restores raw mouse input.
-- **Network Stability**: Registry tweaks used by competitive esports players.
-- **Portability**: Carry your optimization toolkit on a USB drive to LAN parties or tournaments.
+* **Administrator Privileges:** This tool requires running as an **Administrator** to apply most system and registry tweaks.  
+* **System Restart:** Certain advanced optimizations (like Network Tweaks and HPET) require a **system restart** to take full effect.  
+* **Browser Warnings:** If your browser flags the download as unsafe, it is a **false positive** due to the nature of portable `.exe` files. Always verify that you are downloading from the official repository.
 
 ---
 
-> **Note**: This is a powerful tool that modifies system registry keys. While all changes are designed to be reversible via the "Restore/Reset" buttons in the app, always ensure you know what you are modifying.
+## ❓ FAQ (Frequently Asked Questions)
+
+**Q1: Why does my browser/antivirus warn me when I download the file?**  
+A: Portable `.exe` files that apply system tweaks can trigger **false positives**. This is normal behavior. The tool is safe if downloaded from the official repository.
+
+**Q2: Do I need to install the program?**  
+A: No. The tool is **portable** — just run the `.exe` file. No installation is required.
+
+**Q3: Why are Administrator privileges required?**  
+A: Because the optimizer modifies **Windows Registry settings** and system configurations that affect performance. Without admin rights, these tweaks cannot be applied.
+
+**Q4: Will this tool harm my system?**  
+A: No. All tweaks are **reversible** and can be reset to Windows defaults. The tool is designed to optimize performance without compromising stability.
+
+**Q5: Do I need to restart my PC after applying tweaks?**  
+A: Yes, for certain optimizations (like **Network Tweaks** and **HPET disable**) a restart is required to take full effect.
+
+**Q6: Can I use this tool on any version of Windows?**  
+A: It is optimized for **Windows 10 and Windows 11**. Some features may not be available on older versions.
+
