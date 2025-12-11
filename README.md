@@ -1,4 +1,4 @@
-# <img width="2572" height="1607" alt="Game Performance Optimizer - Ultimate Edition 2 0 0 0" src="https://github.com/user-attachments/assets/59280a9e-c697-4cae-94cc-c07b71069fc2" />
+# <img width="2613" height="1690" alt="Game Performance Optimizer - Ultimate Edition 1 0 0 0" src="https://github.com/user-attachments/assets/4cd9b037-598f-4b79-9257-92e59fca5a7d" />
 
 A powerful, all-in-one executable tool designed to enhance gaming performance, fix stuttering (especially in Unreal Engine 5 games), and reduce input latency by applying competitive Windows and system tweaks.
 
